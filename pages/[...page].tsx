@@ -7,7 +7,7 @@ import DefaultErrorPage from "next/error";
 import Head from "next/head";
 import { GetStaticProps } from "next";
 import { Builder } from "@builder.io/react";
-import { MyButton } from "./components/my-button";
+import MyButton   from "./components/my-button";
 
 // Replace with your Public API Key
 builder.init('952952d449244a6cb78f4238625d141e');
