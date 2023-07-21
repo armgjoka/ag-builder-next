@@ -10,7 +10,11 @@ import {
 } from "@builder.io/react";
 // Initialize the Builder SDK with your organization's API Key
 // Find the API Key on: https://builder.io/account/settings
+
 builder.init('952952d449244a6cb78f4238625d141e');
+//Test whether still tracing
+builder.canTrack = false;
+
 export async function getStaticProps({ params }: any) {
   // Fetch the first page from Builder that matches the current URL.
   // Use the `userAttributes` field for targeting content.
