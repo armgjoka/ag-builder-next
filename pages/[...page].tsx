@@ -70,7 +70,7 @@ export default function Page({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       
-      <BuilderComponent model="page" locale="al"/>
+      <BuilderComponent model="page" locale="fr"/>
     </>
   )
 }
