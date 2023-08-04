@@ -10,6 +10,6 @@ export default function EditSymbol () {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
     
-    <BuilderComponent model="symbol" locale="fr "/>
+    <BuilderComponent model="symbol" locale="al "/>
   </>
 }
