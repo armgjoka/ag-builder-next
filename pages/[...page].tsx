@@ -5,7 +5,6 @@ import React from "react";
 import {
   BuilderComponent,
   builder,
-  useIsPreviewing,
   Builder,
 } from "@builder.io/react";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
@@ -51,7 +50,7 @@ export default function Page({
     return <h1>Loading...</h1>
   }
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  const isPreviewing = useIsPreviewing();
+  const isPreviewing = false; // useIsPreviewing();
   if (!page && !isPreviewing) {
     return (
       <>
